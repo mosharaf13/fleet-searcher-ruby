@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   root "home#index"
 
   get "/health_check", to: 'health_check#health_check', as: :rails_health_check
-  resources :search_stats, only: [:index]
+  resources :search_stats, only: [:index, :show]
 
   # Mount Sidekiq web interface
   mount Sidekiq::Web => '/sidekiq'

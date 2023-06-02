@@ -31,10 +31,13 @@
 
 en:
   search_stat:
+    action: "Action"
     ad_count: 'Ad count'
+    ad_count_top: 'Ad count top'
+    details_title: 'Search stat details'
     keyword: 'Keyword'
     link_count: 'Link count'
-    raw_response: 'Raw response'
+    non_ad_count: 'Non ad count'
     title: 'Search stats'
     total_result_count: 'Total result count'
     user: 'User'
