@@ -23,16 +23,14 @@ module Google
     # Parse html data and return a hash with the results
     def call
       {
-        ads_top_count: ads_top_count,
-        ads_page_count: ads_page_count,
-        non_ads_result_count: non_ads_result_count,
-        total_link_count: total_link_count,
+        ad_count: ads_page_count,
+        link_count: total_link_count,
 
-        html: html,
+        raw_response: html,
 
         result_links: result_links,
 
-        status: :parsed
+        status: 2
       }
     end
 
