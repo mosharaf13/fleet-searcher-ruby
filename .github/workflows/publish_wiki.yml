@@ -6,6 +6,7 @@ on:
       - .github/wiki/**
     branches:
       - develop
+      - chore/change-wiki
 
 jobs:
   publish:
